@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/fairpods-darkpink-bg.png");
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.img-size {
+    width: 180px;
+}
+
+.img-name {
+    color: #8e62d9;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.head {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.para {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.button {
+    background-color: #ffdda9;
+    border-radius: 20px;
+    border-width: 0px;
+    border-style: solid;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+}
+
+@media (min-width: 900px) {
+    .bg-container {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/fairpods-blue-bg.png");
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-card {
+        order: 1;
+    }
+
+    .img-size {
+        width: 300px;
+    }
+}
